@@ -1,5 +1,5 @@
 {
-  description = ''Deal with Windows Registry from Nim.'';
+  description = ''Deal with Windows Registry from Nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-winregistry-master.flake = false;
   inputs.src-winregistry-master.owner = "miere43";
-  inputs.src-winregistry-master.ref   = "refs/heads/master";
+  inputs.src-winregistry-master.ref   = "master";
   inputs.src-winregistry-master.repo  = "nim-registry";
   inputs.src-winregistry-master.type  = "github";
   
