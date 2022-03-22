@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-winregistry-v0_2_1.flake = false;
+  inputs.src-winregistry-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-winregistry-v0_2_1.owner = "miere43";
-  inputs.src-winregistry-v0_2_1.ref   = "v0_2_1";
   inputs.src-winregistry-v0_2_1.repo  = "nim-registry";
   inputs.src-winregistry-v0_2_1.type  = "github";
   
