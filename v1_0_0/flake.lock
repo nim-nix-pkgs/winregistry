@@ -36,22 +36,22 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-winregistry-master": "src-winregistry-master"
+        "src-winregistry-v1_0_0": "src-winregistry-v1_0_0"
       }
     },
-    "src-winregistry-master": {
+    "src-winregistry-v1_0_0": {
       "flake": false,
       "locked": {
-        "lastModified": 1653076675,
+        "lastModified": 1653076599,
         "narHash": "sha256-So0hKjbT13l4LEjMraL2FazVAwRcY94qXCsXovuQL/Y=",
         "owner": "miere43",
         "repo": "nim-registry",
-        "rev": "5b9dc4dcf2254f7b1d0d32a57931d95ecddd0f97",
+        "rev": "ce65d6412539296cce544ae3cded90040fbb290b",
         "type": "github"
       },
       "original": {
         "owner": "miere43",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v1.0.0",
         "repo": "nim-registry",
         "type": "github"
       }
